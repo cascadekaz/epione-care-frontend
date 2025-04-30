@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 // import axios from "axios";
 import "./Signup.css";
 
-const SignUp = () => {
+const Signup = () => {
   const navigate = useNavigate();
   const [role, setRole] = useState("patient"); // Default to patient
   const [name, setName] = useState("");
@@ -100,4 +100,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default Signup;
